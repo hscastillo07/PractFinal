@@ -77,13 +77,14 @@ public class ArrayAccesoDatos implements AccesoDatos {
             if (pub.getIsbn().equals(p.getIsbn())) {
                 this.arreglo[i] = null;
                 eliminado = true;
+                this.n--;
                 System.out.println("Publicacion No registrada");
             } else {
                 System.out.println("Publicacion eliminada: ");
                 System.out.println(eliminado);
                 eliminado = false;
             }
-
+            
         }
         return eliminado;
 

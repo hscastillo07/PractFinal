@@ -140,7 +140,7 @@ public class VistaConsola {
 
     public void vistaInsertaPublicacion(String tipo) {
         System.out.println(this.titulos[this.opcion - 1]);
-        //if (tipo == "audiolibro"){
+        
         try {
             System.out.println("-------------AUDIOLIBRO-----------");
             System.out.println("Inserte la duración: ");
